@@ -20,7 +20,7 @@ jobs:
       run: npm install 
       working-directory: ./conit
     # 4. Run Test
-    - name: Run Tests
+    - name: Run Test
       run: npm test
 
 # Build and push Docker image to ECR
