@@ -20,6 +20,7 @@ jobs:
     # 3. Install dependencies
     - name: Install dependencies
       run: npm install 
+      working-directory: ./conit
     # 4. Run Test
     - name: Run Tests
       run: npm test
